@@ -47,9 +47,13 @@
   </a>
 
 
-When you want to found, you leave breadcrumbs.
+When you want to be found, you leave your mark - in this case, it's a breadcrumb.
+</br>
 Our team created the social app that allowed you to leave your "crumbs" for the world to find you.
+</br>
 A crumb could be an idea, a rant, or a gif that you just wanted the world to see.
+</br>
+Login to publish your leave your crumbs. Once published, the world can see your crumbs and you can see theirs.
 
 
 ### Built With
@@ -63,32 +67,13 @@ A crumb could be an idea, a rant, or a gif that you just wanted the world to see
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Create an account by submitting an email and password on our Signup page.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+If you want to browse as a guest, Login using the following Demo Credentials
+</br>
+Email: tester1234@gmail.com
+</br>
+Password: tester1234
 
 
 
