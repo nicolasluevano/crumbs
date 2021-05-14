@@ -1,0 +1,33 @@
+JK Bob
+
+- add a button the feed that redirects back to profile page
+  - remove link from logo
+  
+- add ability for user to upload an avatar pic
+  - display this avatar on users post on the feed
+    -have thought about making a settings page for user
+    -would think avatar upload could be there
+    -was thinking about giving user ability to change username, email, password type options
+
+- logout buttons
+  -we have logout button on profile page might, if you want that on other pages or a different location that would be the code you would want to use
+
+- display number of likes on feed posts
+  - add ability to like from feed?
+  - should be as easy as copying that portion of the code from posts page ill look into it
+  -wasnt fully easy but minor tweaks it is working now could use some formatting
+      -working on formatting a little bit (Jessie)
+
+- fix post timestamps
+  - I think it might be using the local time of the server (Imran's?), rather than the user's local time. Add option to set user's timezone in settings?
+
+-add floating "return to top" arrow in feed?
+
+
+
+
+
+
+
+
+

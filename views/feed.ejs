@@ -1,0 +1,39 @@
+<%- include('partials/header') -%>
+
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+    <div class="col">
+      <a class="btn btn-primary" href="/profile">Return to Profile</a>
+      <a href="/logout" class="btn btn-primary">Logout</a>
+    </div>
+      <ul class="row list-unstyled">
+        <% for(var i=0; i<posts.length; i++) {%>
+          <li class="border col-12 justify-content-between mt-3">
+              <h5 class = "mt-1"><%= userName[i]%></h5><span>  <%= posts[i].createdAt.toLocaleDateString()%></span>
+              <span> -  <%= posts[i].createdAt.toLocaleTimeString("en-US")%></span>
+            <a href="/post/<%= posts[i]._id%>">
+              <p><%= posts[i].crumb%></p>
+            </a>
+            <%if(posts[i].image){ %>
+            <div class="col-sm-5 mt-2 mb-2">
+              <img class="img-fluid" src="<%= posts[i].image%>" />
+            </div>    
+            <%}%>
+                        <div>
+        <form
+          class="col-1"
+          action="/post/likePost/<%= posts[i]._id %>?_method=PUT"
+          method="POST"
+        >
+          <button class=" <%if(posts[i].likes.includes(user.id)){ %> btn-liked <%}%>
+          btn btn-primary fa fa-heart" type="submit" ></button><%= posts[i].likes.length %>
+              </form>
+                     <!-- <h6 class="col-3" id="likes">Likes: <%= posts[i].likes.length %></h6> -->
+            </div> 
+          </li>
+        <% } %>
+        </ul>
+    </div>
+  </div>
+  <img id="feedimg" src="/imgs/bowlocrumbs.jpg" alt="a bowl of breadcrumbs">
+<%- include('partials/footer') -%>
