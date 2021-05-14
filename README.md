@@ -53,7 +53,7 @@ Our team created the social app that allowed you to leave your "crumbs" for the 
 </br>
 A crumb could be an idea, a rant, or a gif that you just wanted the world to see.
 </br>
-Login to publish your leave your crumbs. Once published, the world can see your crumbs and you can see theirs.
+Login to create and publish your crumbs. Once published, the world can see your crumbs and you can see theirs.
 
 
 ### Built With
